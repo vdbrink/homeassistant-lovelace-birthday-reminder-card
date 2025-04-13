@@ -1,14 +1,15 @@
-# homeassistant-lovelace-birthday-reminder-card
-Custom card that helps you remember birthdays and other events that happen once a year on the same date. I made this because I wanted a simple card to remind me of birthdays, without having to install Google calendar.
+# Birthday Reminder Card
+Custom card that helps you remember birthdays and other events that happen once a year on the same date. 
+I made this because I wanted a simple card to remind me of birthdays, without having to install Google calendar.
 
 ![Image of birthday-card](https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card/blob/master/birthday-card.png)
 
 ## Version history
-| Version | Date        |               |
-| :-----: | :---------: | ------------- |
-| v1.0    | 2019.02.11  | First version  |
-| v1.1    | 2019.02.16  | Fixed age for people whos birthday date has passed in current year|
-| v1.2    | 2019.03.10  | <ul><li>*** Breaking change *** setting for `numberofdays` moved to ui-lovelace.yaml. This alows for changing the number of days to show upcoming birthdays without having to edit the js-file (see "How to install").<li><b>Bugfix</b>: fixed a bug that caused an error in the count of days to an upcoming birthday when the birthday is not in the current month</ul>|
+| Version |    Date    |                                                                                                                                                                                                                                                                                                                                                                           |
+|:-------:|:----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  v1.0   | 2019.02.11 | First version                                                                                                                                                                                                                                                                                                                                                             |
+|  v1.1   | 2019.02.16 | Fixed age for people whos birthday date has passed in current year                                                                                                                                                                                                                                                                                                        |
+|  v1.2   | 2019.03.10 | <ul><li>*** Breaking change *** setting for `numberofdays` moved to ui-lovelace.yaml. This alows for changing the number of days to show upcoming birthdays without having to edit the js-file (see "How to install").<li><b>Bugfix</b>: fixed a bug that caused an error in the count of days to an upcoming birthday when the birthday is not in the current month</ul> |
 
 ## How to install
 1. Copy the script (birthday-card.js) to your local directory (I suggest to place all plugins in a directory "plugins" inside your www-folder and to add a new directory inside this for each custom card - if not: adjust the path to birthday-card.js). The file birthday-card.png is not necessary - it's just there so I can display the picture of the card above.
